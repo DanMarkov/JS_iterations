@@ -1,3 +1,5 @@
+// ЗАДАЧА: Посчитайте в цикле сумму квадратов от 1 до 10.
+
 const sumOfSquares = () => {
     let result = 0;
     for (let i = 1; i <= 10; i++){
@@ -6,4 +8,4 @@ const sumOfSquares = () => {
     return result;
 }
 
-console.log(sumOfSquares());
+console.log(sumOfSquares()); // 385
